@@ -9,15 +9,19 @@ Install
 -------
 
 ``git clone https://github.com/alextremblay/phpipam_devices``
+
 ``cd phpipam_devices``
 
 ``chmod u+x phpipam_dev/main.py``
+
 ``pip3 install -r requirements.txt``
 
 Install (symlink) the app's entrypoint into your PATH
+
 ``link -s phpipam_dev/main.py /usr/bin/phpipam_dev``
 
 Run the command once to go through first-time setup.
+
 ``phpipam_dev``
 
 Use
